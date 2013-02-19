@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+	itzbus</display-name>
+	<!--<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+-->
+   <servlet>
+        <servlet-name>dwr-invoker</servlet-name>
+        <servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>true</param-value>
+        </init-param>
+   </servlet>
+   <servlet-mapping>
+        <servlet-name>dwr-invoker</servlet-name>
+        <url-pattern>/dwr/*</url-pattern>
+   </servlet-mapping>
+   <servlet>
+	   <servlet-name>ItzBusInitializationServlet</servlet-name>
+	   <servlet-class>com.itz.bus.server.ItzBusInitializationServlet</servlet-class>
+	   <init-param>
+	   	<param-name>Server.Controller.Property</param-name>
+	    <param-value>ItzBus</param-value>
+	   </init-param>
+	   <init-param>
+	   <param-name>Context.Name</param-name>
+	   	<param-value>ItzBusContext</param-value>
+	   </init-param>
+	   <load-on-startup>1</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+   		<servlet-name>ItzBusInitializationServlet</servlet-name>
+   		<url-pattern>/servlet/ItzBusInitializationServlet</url-pattern>
+   </servlet-mapping>
+   <servlet>
+      <servlet-name>ItzBusRedirectionServlet</servlet-name>
+      <servlet-class>com.itz.bus.server.ItzBusRedirectionServlet</servlet-class>
+   </servlet>
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>VRLPaymentServlet</display-name>
+   	<servlet-name>VRLPaymentServlet</servlet-name>
+   	<servlet-class>
+   	com.itz.bus.server.VRLPaymentServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   		<servlet-name>ItzBusRedirectionServlet</servlet-name>
+   		<url-pattern>/servlet/ItzBusRedirectionServlet</url-pattern>
+   </servlet-mapping>
+   <servlet>
+      <servlet-name>VRLBookingServiceServlet</servlet-name>
+      <servlet-class>com.itz.bus.server.VRLBookingServiceServlet</servlet-class>
+   </servlet>
+   
+    <servlet>
+   	<description>
+   	</description>
+   	<display-name>VRLConfirmPNRServlet</display-name>
+   	<servlet-name>VRLConfirmPNRServlet</servlet-name>
+   	<servlet-class>
+   	com.itz.bus.server.VRLConfirmPNRServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+   		<servlet-name>VRLBookingServiceServlet</servlet-name>
+   		<url-pattern>/servlet/VRLBookingServiceServlet</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>VRLPaymentServlet</servlet-name>
+   	<url-pattern>/servlet/VRLPaymentServlet</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>VRLConfirmPNRServlet</servlet-name>
+   	<url-pattern>/servlet/VRLConfirmPNRServlet</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>VRLTicketReceiptServlet</display-name>
+   	<servlet-name>VRLTicketReceiptServlet</servlet-name>
+   	<servlet-class>
+   	com.itz.bus.server.VRLTicketReceiptServlet</servlet-class>
+   </servlet>
+
+<servlet-mapping>
+   	<servlet-name>VRLTicketReceiptServlet</servlet-name>
+   	<url-pattern>/servlet/VRLTicketReceiptServlet</url-pattern>
+   </servlet-mapping>
+   
+</web-app>

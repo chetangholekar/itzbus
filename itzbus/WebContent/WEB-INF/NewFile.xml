@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Header>
+		<responsecodeheader xmlns="http://www.vrllogistics.in/webs/WS/">
+			<response_code>1</response_code>
+		</responsecodeheader>
+	</soap:Header>
+	<soap:Body>
+		<GetAvailableJourniesResponse xmlns="http://www.vrllogistics.in/webs/WS/">
+			<GetAvailableJourniesResult>
+				<response_code>100</response_code>
+				<No_of_journies>3</No_of_journies>
+				<Journies>
+					<journey>
+						<Journey_id>498968</Journey_id>
+						<Bus_id>23</Bus_id>
+						<Bus_type>Sleeper / Seater(40/AB/N)</Bus_type>
+						<No_of_seats_available>40</No_of_seats_available>
+						<Route_note>No Dinner Break &amp; No Drop Vidaynagar </Route_note>
+						<No_of_boarding_points>8</No_of_boarding_points>
+	<Boarding_points>
+		<Boarding_point>
+			<Boarding_point_id>705</Boarding_point_id>
+			<Boarding_point_name>KENGERI(PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>20:00:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>706</Boarding_point_id>
+			<Boarding_point_name>KENGERI UPANAGAR(PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>20:30:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>707</Boarding_point_id>
+			<Boarding_point_name>ULLAL CROSS (PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>20:45:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>720</Boarding_point_id>
+			<Boarding_point_name>NAGARABHAVI(PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>21:00:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>5</Boarding_point_id>
+			<Boarding_point_name>Anand Rao Circle</Boarding_point_name>
+			<Boarding_point_time>23:30:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>27</Boarding_point_id>
+			<Boarding_point_name>Tank Bund Road(Hotel Amar)
+			</Boarding_point_name>
+			<Boarding_point_time>23:35:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>26</Boarding_point_id>
+			<Boarding_point_name>Rajaji Nagar(B)</Boarding_point_name>
+			<Boarding_point_time>23:45:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>4</Boarding_point_id>
+			<Boarding_point_name>Peenya[A]</Boarding_point_name>
+			<Boarding_point_time>23:59:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point xsi:nil="true" />
+	</Boarding_points>
+	<Journey_min>360</Journey_min>
+	<Seat_details>
+		<Seat_Names>
+			L1,L9,L13,L21,A,1,2,3,4,5,7,8,9,10,11,12,13,15,17,18,U2,U3,U6,U7,U11,U12,U15,U18,U19,L17,B,6,U8,U10,U20,L5,14,16,U14,U16,U22,U4
+		</Seat_Names>
+		<Seat_indexs>
+			861,863,864,866,867,869,870,871,872,873,875,876,877,878,879,880,881,883,885,886,887,888,890,891,894,895,897,899,900,865,868,874,892,893,901,862,882,884,896,898,902,889
+		</Seat_indexs>
+		<Seat_availablity>
+			0,863,864,866,0,869,870,871,872,873,875,876,877,878,879,880,881,883,885,886,887,888,890,891,894,895,897,899,900,865,0,874,892,893,901,862,882,884,896,898,902,889
+		</Seat_availablity>
+		<Seat_fares>
+			300,300,300,300,280,280,280,280,280,280,280,280,280,280,280,280,280,280,280,280,300,300,300,300,300,300,300,300,300,300,280,280,300,300,300,300,280,280,300,300,300,300
+		</Seat_fares>
+		<Seat_sexes>
+			1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+		</Seat_sexes>
+		<seat_staxp1>0</seat_staxp1>
+		<seat_staxvc1>0</seat_staxvc1>
+	</Seat_details></journey>
+	<journey>
+	<Journey_id>490470</Journey_id>
+	<Bus_id>15</Bus_id>
+	<Bus_type>New 2+2 Executive Air-Bus</Bus_type>
+	<No_of_seats_available>41</No_of_seats_available>
+	<Route_note>
+	</Route_note>
+	<No_of_boarding_points>8</No_of_boarding_points>
+	<Boarding_points>
+		<Boarding_point>
+			<Boarding_point_id>705</Boarding_point_id>
+			<Boarding_point_name>KENGERI(PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>20:00:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>706</Boarding_point_id>
+			<Boarding_point_name>KENGERI UPANAGAR(PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>20:30:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>707</Boarding_point_id>
+			<Boarding_point_name>ULLAL CROSS (PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>20:45:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>720</Boarding_point_id>
+			<Boarding_point_name>NAGARABHAVI(PICK UP VECH)
+			</Boarding_point_name>
+			<Boarding_point_time>21:00:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>28</Boarding_point_id>
+			<Boarding_point_name>Vijayanagar</Boarding_point_name>
+			<Boarding_point_time>22:15:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>5</Boarding_point_id>
+			<Boarding_point_name>Anand Rao Circle</Boarding_point_name>
+			<Boarding_point_time>23:30:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>26</Boarding_point_id>
+			<Boarding_point_name>Rajaji Nagar(B)</Boarding_point_name>
+			<Boarding_point_time>23:45:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point>
+			<Boarding_point_id>4</Boarding_point_id>
+			<Boarding_point_name>Peenya[A]</Boarding_point_name>
+			<Boarding_point_time>23:58:00</Boarding_point_time>
+		</Boarding_point>
+		<Boarding_point xsi:nil="true" />
+	</Boarding_points>
+	<Journey_min>360</Journey_min>
+	<Seat_details>
+		<Seat_Names>
+			1,3,8,10,11,13,18,19,23,24,26,4,6,28,29,30,31,35,39,40,41,5,7,14,2,12,17,22,25,34,36,37,9,15,16,20,21,32,38,27,33
+		</Seat_Names>
+		<Seat_indexs>
+			533,535,540,542,543,545,550,551,555,556,558,536,538,560,561,562,563,567,571,572,573,537,539,546,534,544,549,554,557,566,568,569,541,547,548,552,553,564,570,559,565
+		</Seat_indexs>
+		<Seat_availablity>
+			0,535,540,542,543,545,550,551,555,556,558,536,538,560,561,562,563,567,571,572,573,537,539,546,534,544,549,554,557,566,568,569,541,547,548,552,553,564,570,559,565
+		</Seat_availablity>
+		<Seat_fares>
+			320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320
+		</Seat_fares>
+		<Seat_sexes>
+			1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		</Seat_sexes>
+		<seat_staxp1>0</seat_staxp1>
+		<seat_staxvc1>0</seat_staxvc1>
+	</Seat_details>
+</journey>
+	<journey xsi:nil="true" />
+	<journey xsi:nil="true" /></Journies></GetAvailableJourniesResult></GetAvailableJourniesResponse></soap:Body></soap:Envelope>
